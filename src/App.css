@@ -4,6 +4,21 @@
   padding: 2rem;
   text-align: center;
 }
+*.pp{
+  border: 10px double rgb(23, 244, 23);
+  color: black;
+  background: #f04646;
+  margin-top: 50px;
+
+padding: 20px;
+border-radius:20px;
+}
+nav a.active{
+  text-decoration: underline;
+  border: 2px solid red;
+  background: #c0ff99;
+  color: #000000;
+}
 
 .logo {
   height: 6em;

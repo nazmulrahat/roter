@@ -9,7 +9,7 @@ const User = ({user}) => {
             <h2>{name}</h2>
             <p>{email}</p>
             <p>{phone}</p>
-            <Link to={`/user/${id}`}>Show Details</Link>
+            <Link to={`/user/${id}`}><button>Show Details</button></Link>
         </div>
     );
 };

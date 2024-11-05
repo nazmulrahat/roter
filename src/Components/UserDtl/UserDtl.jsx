@@ -2,6 +2,7 @@ import { useLoaderData } from "react-router-dom";
 
 const UserDtl = () => {
     const user = useLoaderData();
+    
     const {name}= user
     return (
         <div>
